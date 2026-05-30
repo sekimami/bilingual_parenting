@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* common
+---------------------------------------------*/
+* {margin:0;padding:0;}
+
+a:link,a:visited {
+	color: #ffffff;
+	text-decoration:underline;
+}
+a:hover,a:active {
+	color: #d90909;
+	text-decoration:underline;
+}
+
+.impact   {font-size:20pt; font-weight:bold;}
+.impact2  {color:red;}
+.impact3  {background:yellow; color:#000;}
+#impact4  {underline;}
+.impact5  {background:#173B50; padding:2px 5px; color:#fff;}
+.impact6  {background:#f4f4f4; padding:3px; line-height:1.1;}
+.impact7  {background: #B60000; padding:2px 5px; color:#fff;}
+.style2   {color: #FF0000}
+.style3   {color: #333333}
+.style4   {color: #000000}
+
+
+img{ border: none;}
+
+/* ボタンのマウスオーバーで明るくする */
+.btn:hover {
+  filter: brightness(120%);
+}
+
+
+/* animation
+---------------------------------------------*/
+.feedInUp {
+	opacity: 0;
+	transform: translate(0,30px); 
+	-webkit-transform: translate(0,30px); 
+	transition: 1.5s;
+}
+.feedInUp_On {
+	opacity: 1.0;
+	transform: translate(0,0); 
+	-webkit-transform: translate(0,0);
+}
+
+/* layout
+---------------------------------------------*/
+
+
+/*TopIntro-Start*/
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-width: 1002px;
+	
+  background-image: url(../images/bg.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	
+-webkit-text-size-adjust:none;
+	
+  text-align:center;
+  font-size:18px;
+  font-family: 'meiryo', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    color: #383d5c;
+}
+
+#head1 { background: url("../images/head_01.png") no-repeat top center; height:    252px; } 
+#head2 { background: url("../images/head_02.png") no-repeat top center; height:    475px; } 
+#head3 { background: url("../images/head_03.png") no-repeat top center; height:    496px; } 
+#head4 { background: url("../images/head_04.png") no-repeat top center; height:    329px; } 
+#head5 { background: url("../images/head_06.png") no-repeat top center; height:    568px; } 
+#head6 { background: url("../images/head_07.png") no-repeat top center; height:    615px; } 
+#head7 { background: url("../images/head_08.png") no-repeat top center; height:    534px; } 
+#head8 { background: url("../images/head_09.png") no-repeat top center; height:    816px; } 
+#head9 { background: url("../images/head_10.png") no-repeat top center; height:    910px; } 
+#head10 { background: url("../images/head_11.png") no-repeat top center; height:    1082px; } 
+#head11 { background: url("../images/head_12.png") no-repeat top center; height:    719px; } 
+#head12{ background: url("../images/head_13.png") no-repeat top center; height:    866px; } 
+#head13 { background: url("../images/head_14.png") no-repeat top center; height:    551px; } 
+#head14 { background: url("../images/head_15.png") no-repeat top center; height:    1150px; } 
+#head15 { background: url("../images/head_16.png") no-repeat top center; height:    737px; } 
+#head16 { background: url("../images/head_17.png") no-repeat top center; height:    227px; } 
+#head17 { background: url("../images/head_18.png") no-repeat top center; height:    807px; } 
+#head18 { background: url("../images/head_19.png") no-repeat top center; height:    865px; } 
+#head19 { background: url("../images/head_20.png") no-repeat top center; height:    868px; } 
+#head20 { background: url("../images/head_21.png") no-repeat top center; height:    805px; } 
+#head21 { background: url("../images/head_22.png") no-repeat top center; height:    658px; } 
+#head22 { background: url("../images/head_23.png") no-repeat top center; height:    795px; } 
+#head23 { background: url("../images/head_24.png") no-repeat top center; height:    863px; } 
+#head24 { background: url("../images/head_25.png") no-repeat top center; height:    796px; } 
+#head25 { background: url("../images/head_26.png") no-repeat top center; height:    501px; } 
+#head26 { background: url("../images/head_27.png") no-repeat top center; height:    830px; } 
+#head27 { background: url("../images/head_28.png") no-repeat top center; height:    458px; } 
+#head28 { background: url("../images/head_29.png") no-repeat top center; height:    758px; } 
+#head29 { background: url("../images/head_30.png") no-repeat top center; height:    265px; } 
+#head30 { background: url("../images/head_31.png") no-repeat top center; height:    755px; } 
+#head31 { background: url("../images/head_32.png") no-repeat top center; height:    900px; } 
+#head32 { background: url("../images/head_33.png") no-repeat top center; height:    796px; } 
+#head33 { background: url("../images/head_34.png") no-repeat top center; height:    816px; } 
+#head34 { background: url("../images/head_35.png") no-repeat top center; height:    997px; } 
+#head35 { background: url("../images/head_36.png") no-repeat top center; height:    572px; } 
+#head36 { background: url("../images/head_37.png") no-repeat top center; height:    351px; } 
+#head37 { background: url("../images/head_38.png") no-repeat top center; height:    1027px; } 
+#head38 { background: url("../images/head_39.png") no-repeat top center; height:    1137px; } 
+#head39 { background: url("../images/head_40.png") no-repeat top center; height:    1002px; } 
+#head40 { background: url("../images/head_41.png") no-repeat top center; height:    934px; } 
+#head41 { background: url("../images/head_42.png") no-repeat top center; height:    594px; } 
+#head42 { background: url("../images/head_43.png") no-repeat top center; height:    606px; } 
+#head43 { background: url("../images/head_44.png") no-repeat top center; height:    734px; } 
+#head44 { background: url("../images/head_45.png") no-repeat top center; height:    782px; } 
+#head45 { background: url("../images/head_46.png") no-repeat top center; height:    487px; } 
+
+
+
+#form { background: url("../images/form_1.png") no-repeat top center; height:    339px; } 
+#form2 { background: url("../images/form_2.png") no-repeat top center; height:    376px; } 
+#form3 { background: url("../images/form_3.png") no-repeat top center; height:    290px; } 
+#form4 { background: url("../images/form_4.png") no-repeat top center; height:    317px; } 
+
+
+#wrap {
+
+	background-image: url("../images/wrap.png");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-position:50% 0%;
+}
+
+#wrapform {
+
+	background-image: url("../images/wrapform.png");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-position:50% 0%;
+}
+
+
+#container {
+
+	text-align:left;
+	width:1000px;
+	margin:0 auto;
+	
+	
+}
+
+#text {
+
+	text-align:left;
+	width:850px;
+	margin:0 auto;
+	
+	
+}
+
+#textwhite {
+
+	text-align:left;
+	width:850px;
+	margin:0 auto;
+	color: #fff;
+	
+}
+
+#texts2 {
+
+	text-align:left;
+	width:750px;
+	position: relative;
+	margin-top:170px;
+	margin-left:400px;
+	
+	
+}
+
+#texts3 {
+
+	text-align:left;
+	width:850px;
+	margin-top:250px;
+	margin-left:170px;
+	
+	
+}
+
+
+.container {
+
+	text-align:left;
+	width:1200px;
+	margin:0 auto;
+	
+	
+}
+
+.white {
+  color: #fff;
+}
+
+.text-center {
+　text-align: center;
+}
+
+#footer {  
+	background-color: #ea889f;
+}
+--------------------------- */
+
+ol,
+ul{
+	list-style-position: inside;
+	padding-left:10px;
+}
+ol li,
+ul li{
+	text-align:left;
+}
+
